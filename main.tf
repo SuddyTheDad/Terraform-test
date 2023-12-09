@@ -9,9 +9,9 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name  = "tfstate-6dec-test"
-    storage_account_name = "tfstate6dectest"
-    container_name       = "tfstate-6dec-test"
+    resource_group_name  = "tfstate-9dec-Suddy"
+    storage_account_name = "tfstate9decsuddy"
+    container_name       = "tfstate-9dec-suddy"
     key                  = "terraform.tfstate"
   }
 }
